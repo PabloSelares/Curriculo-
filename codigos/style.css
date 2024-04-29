@@ -1,0 +1,172 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgb(0,0,0);
+    background: linear-gradient(117deg, rgba(0,0,0,1) 12%, rgba(0,0,0,1) 30%, rgba(171,27,27,1) 81%);
+    font-family: sans-serif;
+    color: #eee;
+
+}
+
+.logo img {
+    width: 170px; /* Defina a largura desejada para o seu logo */
+    height: 80px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+    color: #fbf3f3;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 20px;
+    font-family: sans-serif;
+    color: #f5f5f5;
+    
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+body {
+    margin: 0; /* Remover margens padrão */
+    background: rgb(0,0,0);
+    background: linear-gradient(117deg, rgba(0,0,0,1) 12%, rgba(0,0,0,1) 30%, rgba(171,27,27,1) 81%);}
+
+.banner {
+    width: 100%; /* Ocupa toda a largura disponível */
+    height: 60vh; /* Define a altura do banner em 60% da altura da tela */
+}
+
+.imagem {
+    width: 95%; 
+    margin: 15px 25px 50px auto; 
+    height: 60vh; 
+    box-shadow: #fcfdff 0px 0px 12px;
+    background-image: url("Sem título3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.pablo{
+    color: #eee;
+    
+}
+.hero h1 nav ul{
+    text-align: center;
+ margin: 20px 50px 0 0 ;
+padding: 1px;
+font-size: large;
+
+}
+.hero nav li{
+  
+     display: inline-block;
+     list-style-type: none;
+     border: 1px solid white;
+     text-align: center;
+     font-size: medium;
+
+
+
+}
+main{
+    width: 80%;
+    margin: auto;
+    min-width: 400px;
+    max-width: 860px;
+}
+
+article{
+   background-color: #f2f2f2;
+   color: black;
+   margin-bottom: 32px;
+   padding-top: 32px;
+   border-radius: 20px;
+}
+
+ article h2 {
+  border-bottom: 2px solid #ccc;
+  background-color: #eee;
+  padding: 10px;
+  margin-top: 0px;
+  border-radius: 20px;
+  text-align: center;
+
+
+ }
+ 
+
+ .container{
+   position: relative;
+   padding: 15px;
+   max-width: 640px;
+   margin: 0 auto;
+
+
+
+ }
+
+  .gallery-wrapper{
+
+    overflow-x:auto;
+  }
+
+ .galerry{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+ }
+ .arrow-left,.arrow-right{
+ position: absolute;
+ margin: 0;
+top:0;
+left: 0;
+right: auto;
+bottom: 0;
+font-size: 20px;
+line-height: 250px;
+width: 40px;
+text-align: center;
+color: #eee;
+border: none;
+background:linear-gradient(to left,transparent 0%, rgb(238, 235, 235) 200%)
+ }
+ .arrow-right{
+   left: auto;
+   right: 0;
+   bottom: 0;
+   background:linear-gradient(to right,transparent 0%, rgb(255, 247, 247) 200%)
+ }
+
+.antes{
+    color: #f2f2f2;
+    text-align: center;
+}
+footer {
+    font-size: smaller;
+        display: inline; /* Display text inline */
+        background-color: #000000; /* Dark background for contrast */
+        color: #ffffff;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+       padding: auto;
+      }
+
+      aside{
+        position: fixed;
+        left: 0;
+        top: 340px;
+        rotate: 90deg;
+      }
